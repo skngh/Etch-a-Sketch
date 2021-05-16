@@ -1,0 +1,23 @@
+body {
+    background: blue;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-self: center;
+    flex-grow: 5;
+    flex: 1;
+}
+.div-hover:hover {
+    border: 10px solid yellow !important;
+    background: yellow !important;
+    background-color: yellow !important;
+}
+.btncontainer {
+    text-align: center;
+}
+
+
+
