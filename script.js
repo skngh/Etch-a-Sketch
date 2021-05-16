@@ -6,7 +6,7 @@ const button = document.querySelector("button");
 function GetInputAndGrid() {
     do {
         divAmt = parseInt(window.prompt("How many elements do you want?"), 10);
-    } while (isNaN(divAmt) || divAmt > 100);
+    } while (isNaN(divAmt) || divAmt > 100 || divAmt < 0);
     MakeGrid();
 }
 function MakeGrid () {
